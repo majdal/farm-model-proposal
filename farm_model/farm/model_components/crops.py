@@ -6,6 +6,7 @@ class Crop(models.Model):
 	equipment = models.CharField()
 	carbon = models.DecimalField()
 	soil = models.CharField()
+	labour = models.DecimalField()
 
 	class Meta:
 		abstract = True
